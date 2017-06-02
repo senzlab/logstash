@@ -36,9 +36,6 @@ ADD logstash.conf /config/logstash.conf
 
 EXPOSE 5044
 
-# working dir
-WORKDIR /config
-
 # as a volume at the end
 VOLUME ["/config"]
 
